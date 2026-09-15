@@ -1,0 +1,12 @@
+# Dependências do Node
+node_modules/
+npm-debug.log
+
+# Arquivos e resultados do Allure Report
+allure-results/
+allure-report/
+
+# Logs e arquivos temporários do OS / IDE
+.vscode/
+.DS_Store
+*.log
