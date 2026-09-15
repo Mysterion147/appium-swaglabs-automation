@@ -5,7 +5,7 @@ exports.config = {
     port: 4723,
     path: '/',
     specs: [
-        './test/specs/e2e.test.js'
+        './test/specs/**/*.test.js'
     ],
     maxInstances: 1,
     capabilities: [{

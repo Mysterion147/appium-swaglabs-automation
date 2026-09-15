@@ -74,8 +74,10 @@ appium-swaglabs-automation/
 ## 🧪 Covered Test Scenarios
 - **Full Purchase Flow (E2E):** Login with a standard user, add a product to the cart, validate the cart badge count, proceed to checkout, fill in shipping information, finish the order, and confirm the completion screen.
 - **State Isolation:** Every test terminates and relaunches the app beforehand, ensuring scenarios run against a fresh app state.
-
-> ✏️ As new specs are added (e.g. login error validation, product sorting, cart item removal), list them here.
+- **Checkout Form Error Validation (`checkout-errors.test.js`):**
+  - **Missing First Name:** Attempting to proceed displays dynamic error First Name is required*.
+  - **Missing Last Name:** Attempting to proceed displays dynamic error Last Name is required*.
+  - **Missing Postal Code:** Attempting to proceed displays dynamic error Postal Code is required*.
 
 ---
 
@@ -141,6 +143,10 @@ appium-swaglabs-automation/
 ## 🧪 Cenários de Teste Cobertos
 - **Fluxo Completo de Compra (E2E):** Login com usuário padrão, adição de um produto ao carrinho, validação do contador no badge do carrinho, avanço para o checkout, preenchimento das informações de entrega, finalização do pedido e confirmação da tela de conclusão.
 - **Isolamento de Estado:** Todo teste finaliza e reabre o app antes de rodar, garantindo que os cenários sejam executados sempre a partir de um estado limpo do app.
+- **Validação de Erros no Form de Checkout (`checkout-errors.test.js`):**
+  - **First Name Ausente:** Tentativa de avanço exibindo erro dinâmico *First Name is required*.
+  - **Last Name Ausente:** Tentativa de avanço exibindo erro dinâmico *Last Name is required*.
+  - **Postal Code Ausente:** Tentativa de avanço exibindo erro dinâmico *Postal Code is required*.
 
 ---
 **Developed by João Pedro Maciel de Souza**
